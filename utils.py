@@ -3,45 +3,6 @@ import matplotlib.pyplot as plt
 import os
 import pandas as pd
 
-
-# current_path = os.getcwd()
-
-# def make_folder(m):
-
-#     path = current_path + '/' + m
-#     if path.exist() == False:
-#         os.mkdir(f'./{path}')
-#         newpath = path
-#     else:
-#         n = (len([entry for entry in os.listdir(path) 
-#                   if os.path.isfile(os.path.join(path, entry))]))
-#         newpath = path + n
-#         os.mkdir(f'{newpath}')
-        
-#     path1 = newpath + '/train'
-
-#     os.mkdir(f'./{path1}')
-
-#     path1_1 = path1 + '/accuracy'
-#     path1_2 = path1 + '/loss'
-
-#     os.mkdir(f'./{path1_1}')
-#     os.mkdir(f'./{path1_2}')
-        
-#     path2 = newpath + '/val'
-
-#     os.mkdir(f'./{path2}')
-
-#     path2_1 = path2 + '/accuracy'
-#     path2_2 = path2 + '/loss'
-
-#     os.mkdir(f'./{path2_1}')
-#     os.mkdir(f'./{path2_2}')
-
-#     path3 = newpath + 'plot'
-#     os.mkdir(f'./{path3}')
-
-
             
 
 plt.style.use('ggplot')
