@@ -76,3 +76,28 @@ class Bottleneck(nn.Module):
         o += self.shortcut(x)
         o = F.relu(o)
         return o
+
+
+class PlainBasicBlock(nn.Module):
+    expansion = 1
+    def __init__(self, in_planes, planes, stride=1, option='A'):
+        super(PlainBasicBlock, self).__init__()
+        self.conv1 = nn.Conv2d(
+            in_planes, planes, kernel_size=3, 
+            stride=stride, padding=1, bias=False
+        )
+
+        self.bn1 = nn.BatchNorm2d(planes)
+        self.conv2 = nn.Conv2d(planes, planes, kernel_size=3,
+                               stride=1, padding=1, bias=False)
+        self.bn2 = nn.BatchNorm2d(planes)
+
+
+    
+    def forward(self, x):
+        o = F.relu(self.bn1(self.conv1(x)))
+        o = self.bn2(self.conv2(o))
+        o = F.relu(o)
+
+        return o
+
