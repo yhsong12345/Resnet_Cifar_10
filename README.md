@@ -33,4 +33,4 @@ Pretrained model should be downloaded if you click the name of Model.
 | [Plain32](https://drive.google.com/file/d/17XWnRGJIDa2MuvGJIGproa9Xjnx6glj1/view?usp=drive_link)         | 89.38%      |
 
 ## Plot
-You can Find it in the plot folder 
+Plots are in the plots folder.
