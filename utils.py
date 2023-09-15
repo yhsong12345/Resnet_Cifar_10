@@ -118,11 +118,11 @@ def save_plots(m,train_acc, valid_acc, train_loss, valid_loss):
 
     plt.figure(figsize=(10,7))
     plt.plot(
-        train_loss, color='green', linestyle='-',
+        train_loss, color='green', linestyle='--',
         label='train loss'
     )
     plt.plot(
-        valid_loss, color='orange', linestyle='-',
+        valid_loss, color='orange', linestyle='--',
         label='validation loss'
     )
 
