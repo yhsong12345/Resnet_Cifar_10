@@ -30,4 +30,4 @@ Pretrained model should be downloaded if you click the name of Model.
 | [ResNet44](https://drive.google.com/file/d/1TqbykyFFvf2QxZbwv-k3G0L9iJ90Hd1e/view?usp=drive_link)         | 91.68%      |
 | [ResNet56](https://drive.google.com/file/d/1u_k_acCgvQYCjbQdWcJ43mzvka6llX3e/view?usp=drive_link)          | 91.54%      |
 | [Plain20](https://drive.google.com/file/d/1YUWiG6LII_UPZmgooB3IhYLnGqaBQRsE/view?usp=drive_link)          | 90.3%      |
-| [Plain32]()         | 93.75%      |
+| [Plain32](https://drive.google.com/file/d/17XWnRGJIDa2MuvGJIGproa9Xjnx6glj1/view?usp=drive_link)         | 89.38%      |
