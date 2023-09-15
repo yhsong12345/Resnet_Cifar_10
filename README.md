@@ -1,6 +1,6 @@
 # ResNet_Cifar_10
 
-This is the practice for the implementation of ResNet. This model is trained with Cifar 10.
+This is the practice for the implementation of ResNet.  Models are trained with Cifar 10.
 
 ## Prerequisites
 - Pytorch 2.0.1
