@@ -15,18 +15,18 @@ class SaveBestModel:
     model state.
     """
     def __init__(
-        self, best_valid_loss=float('inf')
+        self, best_valid_acc=float(0)
     ):
-        self.best_valid_loss = best_valid_loss
+        self.best_valid_acc = best_valid_acc
         
     def __call__(
-        self, m, current_valid_loss, 
+        self, m, current_valid_acc, 
         epoch, model, optimizer, criterion
     ):
         path = f'./outputs/{m}'
-        if current_valid_loss < self.best_valid_loss:
-            self.best_valid_loss = current_valid_loss
-            print(f"\nBest validation loss: {self.best_valid_loss}")
+        if current_valid_acc > self.best_valid_acc:
+            self.best_valid_acc = current_valid_acc
+            print(f"\nBest validation acc: {self.best_valid_acc}")
             print(f"\nSaving best model for epoch: {epoch+1}\n")
             torch.save({
                 'epoch': epoch+1,
