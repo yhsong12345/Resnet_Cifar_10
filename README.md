@@ -29,8 +29,8 @@ Pretrained model should be downloaded if you click the name of Model.
 | [ResNet32](https://drive.google.com/file/d/1ekH2JjeBiaUtZ2cUxP63PWg0DQlKm8vj/view?usp=drive_link)          | 92.64%      | 0.46M      |
 | [ResNet44](https://drive.google.com/file/d/1TqbykyFFvf2QxZbwv-k3G0L9iJ90Hd1e/view?usp=drive_link)         | 92.67%      | 0.66M      |
 | [ResNet56](https://drive.google.com/file/d/1u_k_acCgvQYCjbQdWcJ43mzvka6llX3e/view?usp=drive_link)          | 92.47%      | 0.85M     |
-| [Plain20](https://drive.google.com/file/d/1YUWiG6LII_UPZmgooB3IhYLnGqaBQRsE/view?usp=drive_link)          | 90.3%      | 92.64%      |
-| [Plain32](https://drive.google.com/file/d/17XWnRGJIDa2MuvGJIGproa9Xjnx6glj1/view?usp=drive_link)         | 89.38%      | 92.64%      |
+| [Plain20](https://drive.google.com/file/d/1YUWiG6LII_UPZmgooB3IhYLnGqaBQRsE/view?usp=drive_link)          | 90.38%      | 0.27M      |
+| [Plain32](https://drive.google.com/file/d/17XWnRGJIDa2MuvGJIGproa9Xjnx6glj1/view?usp=drive_link)         | 89.38%      | 0.46M     |
 
 ## Plot
 Plots are in the plots folder.
